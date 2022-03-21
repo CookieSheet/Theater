@@ -1,0 +1,134 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.container1 {
+    background-color: black; 
+    height: 40px;
+}
+nav li {
+    display: inline;
+    margin: 20px;
+}
+nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+nav {
+    display: block;
+    color: white;
+}
+nav a {
+    color: #555;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container2 {
+    background-image: url("images/theater-image-background.png");
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 2em;
+    font-family: serif;
+}
+.container3 {
+    background-color: white;
+    height: 900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 10%;;
+}
+.month {
+    width: 70%;
+    background-color: lightgrey;
+    border: 3px solid lightgrey;
+    display: flex;
+}
+.inner_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+
+}
+.rm_button {
+    background: #f3c041;
+    color: white;
+}
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sd_photo {
+    width:50%;
+    justify-content: center;
+    align-items: center;
+}
+.container4 {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-flow: row;
+}
+#tab {
+    color: orange;
+}
+.footbox p {
+    font-size: small;
+}
+.footbox h {
+    font-size: large;
+}
+.footbox {
+    width: 25%;
+    padding-top: 20px;
+}
+.info {
+    color: white;
+    display:flex;
+    align-items: flex-start;
+    flex-flow: column;
+}
+.shows {
+    color: white;
+    display:flex;
+    align-items: flex-start;
+    flex-flow: column;
+}
+.social {
+    color: white;
+    display:flex;
+    align-items: flex-start;
+    flex-flow: column;
+}
